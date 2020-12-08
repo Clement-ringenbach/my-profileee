@@ -1,0 +1,71 @@
+body {
+	background-color: rgb(200, 200, 200);
+	color: blue
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 20px;
+	text-align: center;
+
+
+}
+
+h1 {
+
+color: blue
+font-family:helvitica;
+font-weight:300;
+font-size: 40px
+
+}
+
+h2 {
+
+background-color: rgb(200, 200, 200);
+	color: red;
+	font-family: 'Cinzel', serif;
+	font-size: 20px
+	font-weight:300;
+
+}
+
+a{
+
+	color: yellow;
+}
+
+a: hover {
+
+	color: green;
+}
+
+
+
+div {
+
+background: rgb(0,0,0,0.1);
+border: 2px solid black;
+
+
+
+}
+
+
+.img-circle {
+
+	border-radius: 50px;
+}
+
+
+@media (max-width: 760px ) {
+
+	.container {
+		width: 600px ;
+
+	}
+}
+
+@media (max-width: 5000px ) {
+
+	.container {
+		width: 400px ;
+
+
